@@ -4,19 +4,20 @@
 
 ## Table of Contents
 - [Installation](#installation)
+- [Configuration](#configuration)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
+- [ERD](#ERD)
 
 ## Installation
 
 To install **Apply AI**, follow these steps:
 
 1. Clone the repository:
-`git clone https://github.com/yourusername/yourproject.git`
+`git clone https://github.com/aldoportillo/apply-ai.git`
 
 2. Navigate to the project directory:
-`cd yourproject`
+`cd apply-ai`
 
 3. Install the required gems:
 `bundle install`
@@ -44,9 +45,9 @@ Follow the on-screen instructions to use the application
 Contributions are welcome! Please follow these guidelines:
 
 1. Fork the repository
-2. Create a new branch (`git checkout -b feature-branch`)
+2. Create a new branch (`git checkout -b issue#-initials-feature-branch` ie. 1-ap-initial-commit)
 3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature-branch`)
+4. Push to the branch (`git push origin issue#-initials-feature-branch` ie. 1-ap-initial-commit)
 5. Open a pull request
 
 ## ERD
