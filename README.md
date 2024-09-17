@@ -1,24 +1,58 @@
-# README
+# Apply AI
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**Apply AI** is a platform that revolutionizes job applications. Our advanced AI technology creates tailored resumes and cover letters for you, maximizing your chances of success. Stay informed with personalized notifications for your dream companies.
 
-Things you may want to cover:
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-* Ruby version
+## Installation
 
-* System dependencies
+To install **Apply AI**, follow these steps:
 
-* Configuration
+1. Clone the repository:
+`git clone https://github.com/yourusername/yourproject.git`
 
-* Database creation
+2. Navigate to the project directory:
+`cd yourproject`
 
-* Database initialization
+3. Install the required gems:
+`bundle install`
 
-* How to run the test suite
+4. Set up the database:
+`rails db:setup`
 
-* Services (job queues, cache servers, search engines, etc.)
+5. Start the Rails server:
+`rails server`
 
-* Deployment instructions
+## Configuration
 
-* ...
+**TODO:** Add instructions for configuring the application
+
+## Usage
+
+1. Start the Rails server:
+`rails server`
+
+2. Open your browser and navigate to http://localhost:3000
+Follow the on-screen instructions to use the application
+
+## Contributing
+
+Contributions are welcome! Please follow these guidelines:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature-branch`)
+3. Commit your changes (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature-branch`)
+5. Open a pull request
+
+## ERD
+
+![ERD Diagram](./public/assets/erd.svg)
+
+## Visuals
+
+## API Reference
