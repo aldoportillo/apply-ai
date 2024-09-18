@@ -52,7 +52,7 @@ Contributions are welcome! Please follow these guidelines:
 
 ## ERD
 
-![ERD Diagram](./public/assets/erd.svg)
+![ERD Diagram](./public/erd.svg)
 
 ## Visuals
 
