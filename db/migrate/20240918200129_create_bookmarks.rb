@@ -2,7 +2,7 @@ class CreateBookmarks < ActiveRecord::Migration[7.2]
   def change
     create_table :bookmarks do |t|
       t.references :user, null: false, foreign_key: true
-      t.references :job, null: false, foreign_key: true
+      t.references :job_postings, null: false, foreign_key: true
 
       t.timestamps
     end

@@ -17,14 +17,14 @@ Rails.application.routes.draw do
   resources :applications
   resources :bookmarks, only: [ :index, :create, :destroy ]
   resources :watchings, only: [ :index, :create, :destroy ]
-  resources :jobs do
+  resources :job_postings do
     resources :applications, only: [ :new, :create ]
     resource :bookmark, only: [ :create, :destroy ]
     resource :watching, only: [ :create, :destroy ]
   end
   resources :companies do
-    resources :jobs, only: [ :index ]
+    resources :job_postings, only: [ :index ]
   end
 
-  root "jobs#index"
+  root "job_postings#index"
 end
